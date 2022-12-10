@@ -49,4 +49,5 @@ function processArg(num) {
 
 // Only change code below this line
 
-processed = processArg(7);
+processed = processArg(7); // -------- присваивание
+
