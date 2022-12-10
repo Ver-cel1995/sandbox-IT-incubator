@@ -33,7 +33,7 @@ function addFive() {
 addThree(); // undefiend
 addFive(); // undefiend
 
-console.log(sum) // 8 '''
+console.log(sum) // 8 
 
 
 // ------------ Присваивание значение функции к переменной
