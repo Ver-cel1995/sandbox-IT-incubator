@@ -54,25 +54,6 @@ const arr = [
 
 
 
-// ---------------- Управление массивами с помощью push()
-
-/* 
-
-Простой способ добавления данных в конец массива — через push()функцию.
-.push()принимает один или несколько параметров и "помещает" их в конец массива.
-
-*/
-
-const myArray = [["John", 23], ["cat", 2]];
-
-// Only change code below this line
-
-myArray.push(["dog", 3]);
-
-console.log(myArray) // [ [ 'John', 23 ], [ 'cat', 2 ], [ 'dog', 3 ] ]
-
-
-
 // ---------------- Управление массивами с помощью pop()
 
 /*
@@ -105,6 +86,24 @@ const removedFromMyArray = myArray.shift();
 console.log(myArray); // [ [ 'dog', 3 ] ]
 console.log(removedFromMyArray); // [ 'John', 23 ]
 
+
+
+// ---------------- Управление массивами с помощью push()
+
+/* 
+
+Простой способ добавления данных в конец массива — через push()функцию.
+.push()принимает один или несколько параметров и "помещает" их в конец массива.
+
+*/
+
+const myArray = [["John", 23], ["cat", 2]];
+
+// Only change code below this line
+
+myArray.push(["dog", 3]);
+
+console.log(myArray) // [ [ 'John', 23 ], [ 'cat', 2 ], [ 'dog', 3 ] ]
 
 
 // ---------------- Работа с массивами с помощью unshift()
